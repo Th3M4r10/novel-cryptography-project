@@ -1,0 +1,8 @@
+moviepy==1.0.3
+pycryptodome==3.18.0
+requests==2.31.0
+sockets==1.0.0
+urllib3==2.0.3
+SQLAlchemy==1.4.31
+Flask==2.2.3
+Flask-SQLAlchemy==3.0.3

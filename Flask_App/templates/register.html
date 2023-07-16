@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style-with-prefix.css') }}">
+    <style>
+        .srouce{
+            text-align: right;
+            color: #ffffff;
+            padding: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+
+            <div class="form-body">
+                <h2 class="title">Sign up</h2>
+                <form method="POST" class="the-form" enctype="multipart/form-data">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="mail" id="mail" placeholder="Enter your email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" name="passw" id="password" placeholder="Enter your password" required>
+
+                    <label for="mac">MAC Address</label>
+                    <input type="text" name="mac" id="mac" placeholder="Enter your password" required>
+
+                    <label for="pubk">Load Public Key</label>
+                    <input type="file" name="pubk" id="pubk" placeholder="Enter your password" accept=".pem" required>
+
+
+                    <input type="submit" value="Sign Up">
+
+                </form>
+                <center><p style="color: crimson;">{{error}}</p></center> 
+
+            </div><!-- FORM BODY-->
+
+            <div class="form-footer">
+                <div>
+                    <span>Already have an account?</span> <a href="/login">Login</a>
+                </div>
+            </div><!-- FORM FOOTER -->
+
+        </div><!-- FORM CONTAINER -->
+         <div class="srouce"><a href="https://github.com/themj0ln1r/">Source Code</a></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+certifi==2023.5.7
+charset-normalizer==3.1.0
+decorator==4.4.2
+idna==3.4
+imageio==2.31.1
+imageio-ffmpeg==0.4.8
+moviepy==1.0.3
+numpy==1.24.3
+Pillow==9.5.0
+proglog==0.1.10
+pycryptodome==3.18.0
+requests==2.31.0
+sockets==1.0.0
+tqdm==4.65.0
+urllib3==2.0.3
+pygame==2.4.0

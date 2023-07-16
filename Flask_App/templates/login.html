@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mj0ln1r's Space</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style-with-prefix.css') }}">
+    <style>
+        .srouce{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+            <div class="form-body">
+                <h2 class="title">Log in</h2>
+                <form method="POST" action="/login" class="the-form">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="mail" id="mail" placeholder="Enter your email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" name="passw" id="password" placeholder="Enter your password" required>
+
+                    <input type="submit" value="Log In">
+
+                </form>
+
+                <center><p style="color: crimson;">{{error}}</p></center>  
+            </div><!-- FORM BODY-->
+
+            <div class="form-footer">
+                <div>
+                    <span>Don't have an account?</span> <a href="/register">Sign Up</a>
+                </div>
+            </div><!-- FORM FOOTER -->
+
+
+        </div><!-- FORM CONTAINER -->
+        <div class="srouce"><a href="https://github.com/themj0ln1r/" target="_blank">Source Code</a></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mj0ln1r's Space</title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style-with-prefix.css') }}">
+    <style>
+        .srouce{
+            text-align: center;
+            color: #ffffff;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="form-container">
+            
+            <div class="form-body">
+                <h1 class="title" style="color:#00D387;">User Dashboard</h1>
+                <h3>Email : {{email}} </h3>
+                <h3>MAC : {{ mac }}</h3>
+                <h3>Server to connect : (Webserver IP):9999</h3>
+                <h4> Client program to connect stream server &#x2193;</h4>
+                <a href="/static/client.zip" download>
+                    <center><button class="custom-button">Download</button></center>
+                </a>
+
+            </div>
+        </div>
+        <br><center><h2 style="color:#00D387;">Available videos to stream</h2></center><br>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="/static/images/1.jpg" alt="What is cryptography">
+                <h3>What is cryptography</h3>
+            </div>
+            <div class="grid-item">
+                <img src="/static/images/2.jpg" alt="Learn about RSA">
+                <h3>Learn about RSA</h3>
+            </div>
+            <div class="grid-item">
+                <img src="/static/images/3.jpg" alt="Digital Signatures">
+                <h3>Digital Signatures</h3>
+            </div>
+            <div class="grid-item">
+                <img src="/static/images/4.jpg" alt="AES security">
+                <h3>AES security</h3>
+            </div>
+        </div>
+    </div>
+    <div class="srouce"><a href="https://github.com/themj0ln1r/">Source Code</a></div>
+
+</body>
+</html>
