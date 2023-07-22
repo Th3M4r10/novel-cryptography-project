@@ -110,7 +110,7 @@ The number of keys generated depends on the quantity of generated video chunks. 
 
 ## Installing Entire Project
 
-1. `git clone https://github.com/themj0ln1r/novel-cryptography-project.git`
+1. `git clone https://github.com/th3m4r10/novel-cryptography-project.git`
 
 2. `cd novel-cryptography-project`
 
