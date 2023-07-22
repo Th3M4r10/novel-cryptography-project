@@ -108,7 +108,7 @@ The number of keys generated depends on the quantity of generated video chunks. 
 
 2. `cd novel-cryptography-project`
 
-3. python3 -m venv env
+3. `python3 -m venv env`
 
 4. source env/bin/activate
 
