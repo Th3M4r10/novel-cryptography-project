@@ -77,11 +77,11 @@ The video file encrypion flow as follows.
    - During registration, users are required to import their public key, along with their email, password, and MAC address.
 - Encryption
 
-![Video Encryption](assets/video_encryption.jpg)
+![Video Encryption](assets/encryption.jpg)
 
    - The server-side encryption involves AES encryption of each 1MB chunk of the video file.
 
-![keygeneration](assets/keygeneration.jpg)
+![keygeneration](assets/key-generation.jpg)
 
    - The encryption key used for AES is generated using a novel key generation technique that combines RSA and ECC.
 - Decryption
