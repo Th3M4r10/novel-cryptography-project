@@ -4,12 +4,6 @@ Protecting copyright and preventing piracy has become a crucial concern in real-
 
 The project implements a software solution for video encryption and decryption using a continuous system based on the Elliptic Curve Cryptography (ECC) approach as pseudorandom encryption key generators. This approach generates multiple keys to encrypt and decrypt small chunks of video files dynamically, based on the video data. The implementation follows a client-server model utilizing socket programming.
 
-### Video Walkthrough
-<video width="100%" height="100%" controls>
-  <source src="assets/demo.webm" type="video/mp4">
-  Your browser does not support the video tag
-</video>
-
 
 ## Project Flow
 
@@ -110,7 +104,7 @@ The number of keys generated depends on the quantity of generated video chunks. 
 
 ## Installing Entire Project
 
-1. `git clone https://github.com/themj0ln1r/novel-cryptography-project.git`
+1. `git clone https://github.com/th3m4r10/novel-cryptography-project.git`
 
 2. `cd novel-cryptography-project`
 
@@ -147,6 +141,6 @@ Now you are set to run this project
 
 ### Additional Links
 
-For the full walk-through : [Blog](https://th3m4r10.github.io/)
+For the full walk-through with video demo : [Blog](https://th3m4r10.github.io/)
 
 > `Please let me know there was any bug/flaw in the implementation..`
